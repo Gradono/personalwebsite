@@ -273,4 +273,8 @@ a.link:link{
     content: url(https://m.media-amazon.com/images/I/71woEOr8VGL.jpg);
 }
 
+#Portal2 > a > img:hover{
+    content: url(https://m.media-amazon.com/images/I/71aoAIrUlqL.jpg);
+}
+
 
