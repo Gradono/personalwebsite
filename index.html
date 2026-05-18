@@ -22,35 +22,50 @@
         <div id = "SecondRow">
             <h1>Albums I'm Listening To This Week</h1>
             <div>
-                <div>
+                <div id="beat">
                     <button type="button" id="beat" onclick="embed('beat')">
                         <img src="https://i.scdn.co/image/ab67616d0000b273ba2def70a938684399ae3025" alt="Beat Happening by Beat Happening">
-                        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/beat-happening/1656232371"></iframe>
                     </button>
+                    <div id="albumLink">
+                        <button type="button" onclick="unembed('beat')">X</button>
+                        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/beat-happening/1656232371"></iframe>
+                    </div>
                 </div>
-                <div>
+                <div id="computer">
                     <button type="button" id="computer" onclick="embed('computer')">
                         <img src="https://i.scdn.co/image/ab67616d0000b273e04b8c0b83df4247f25ac979" alt="I Love My Computer by Ninajirachi">
-                        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/i-love-my-computer/1824602984"></iframe>
                     </button>
+                    <div id="albumLink">
+                        <button type="button" onclick="unembed('computer')">X</button>
+                        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/i-love-my-computer/1824602984"></iframe>
+                    </div>
                 </div>
-                <div>
+                <div id="outkast">
                     <button type="button" id="outkast" onclick="embed('outkast')">
                         <img src="https://i.scdn.co/image/ab67616d0000b273153b3d6495031cb813a7451c" alt="Stankonia by Outkast">
+                    </button>
+                    <div id="albumLink">
+                        <button type="button" onclick="unembed('outkast')">X</button>
                         <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/stankonia/255836651"></iframe>
-                    </button>
+                    </div>
                 </div>
-                <div>
-                    <button type="button" id="slayyyter" onclick="embed('slayyyter')">
+                <div id="slayyyter">
+                    <button type="button" onclick="embed('slayyyter')">
                         <img src="https://i.scdn.co/image/ab67616d0000b2734c6a0c9499470002aa8ba96f" alt="WOR$T GIRL IN AMERICA by Slayyyter">
+                    </button>
+                    <div id="albumLink">
+                        <button type="button" onclick="unembed('slayyyter')">X</button>
                         <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/wor%24t-girl-in-america/1867530577"></iframe>
-                    </button>
+                    </div>
                 </div>
-                <div>
-                    <button type="button" id="nirvana" onclick="embed('nirvana')">
+                <div id="nirvana">
+                    <button type="button" onclick="embed('nirvana')">
                         <img src="https://i.scdn.co/image/ab67616d0000b273e1f5fcef5fb5f70aa0a717fc" alt="Incesticide by Nirvana">
-                        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/incesticide/1434917065"></iframe>
                     </button>
+                    <div id="albumLink">
+                        <button type="button" onclick="unembed('nirvana')" style="">X</button>
+                        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/incesticide/1434917065"></iframe>
+                    </div>
                 </div>
             </div>
             
